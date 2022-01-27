@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "dogneedmed": {
+      "hosting": {
+        "DogNeedMed": [
+          "dogneedmed"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dogneedmed"
+  }
+}

@@ -1,0 +1,13 @@
+<div class="mt-4 shadow rounded p-4">
+	<h3 class="text-center">Past Medications</h3>
+	<hr>
+	<ul class="w-100 ps-0">
+		<li *ngFor="let med of meds" class="d-flex justify-content-between align-middle">
+			<p class="ps-0">{{med.giver}}</p>
+			<p>|</p>
+			<p>{{med.animal}}</p>
+			<p>|</p>
+			<p>{{med.date.toDate() | date: 'shortDate'}}</p>
+		</li>
+	</ul>
+</div>

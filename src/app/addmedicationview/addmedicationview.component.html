@@ -1,0 +1,14 @@
+<h3>Add medication</h3>
+	<div class="input-group-lg mb-3 text-center">
+		<select class="w-50" name="giver" id="giver" [(ngModel)]="medToAdd.giver" placeholder="Name...">
+			<option value="Vicki" selected>Vicki</option>
+			<option value="Renee">Renee</option>
+			<option value="Dakota">Dakota</option>
+			<option value="Charlie">Charlie</option>
+		</select>
+		<select class="w-50" name="animal" id="animal" [(ngModel)]="medToAdd.animal" placeholder="Animal...">
+			<option value="" selected disabled hidden>Rumour</option>
+		  	<option value="Rumour" selected>Rumour</option>
+		</select>
+		<button (click)="done()" class="btn btn-primary w-100">done!</button>
+	</div>
